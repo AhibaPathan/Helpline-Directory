@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1{text-align: center;}
+    table {
+      border-collapse: collapse;
+      width: 50%;
+    }
+    table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+    
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th,td {
+      background-color: lightgray;
+    }
+#grad1 {
+  height: 800px;
+  background-color: orange; /* For browsers that do not support gradients */
+  background-image: linear-gradient(lightgreen,white,purple);
+}
+</style>
+</head>
+<body div id="grad1"></div>
+    <h3 style="text-align:left;">
+     
+<h1><u><b>For Women's safety</b></u></h1>
+  
+  <table class="center">
+    <tr>
+      <th style="width:70%">Name</th>
+      <th>Contacts</th>
+    </tr>
+    <tr>
+      <td>National Commission for women helpline</td>
+      <td>7827170170</td>
+    </tr>
+    <tr>
+      <td>Central social wealfare board-Police helpline</td>
+      <td>1091/1291,(011)23317004</td>
+    </tr>
+    <tr>
+      <td>All India women's conference</td>
+      <td>10921/(011)23389680</td>
+    </tr>
+    <tr>
+      <td>Saheli-a women's organization</td>
+      <td>(011)24616485(Saturdays)</td>
+    </tr>
+    <tr>
+      <td>Nari Raksha samiti</td>
+      <td>(011)23973949</td>
+    </tr>
+    <tr>
+      <td>Women Helpline (Domestic Abuse)</td>
+      <td>181</td>
+    </tr>
+    <tr>
+      <td>Women Helpline</td>
+      <td>22633333</td>
+    </tr>
+  </table>
+  <h3 style="text-align: center;"><a href="/index.html">Back</a></h3>
+  <style>
+    .registration-form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      background-color: white;
+    }
+
+    .registration-form input[type="text"],
+    .registration-form input[type="email"],
+    .registration-form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .registration-form input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+
+    .success-message {
+      display: none;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="registration-form">
+    <h2>Registration Form</h2>
+    <form id="registration-form" method="post" action="#">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="text" name="area" placeholder="Area" required>
+      <input type="text" name="problem" placeholder="Problem" required>
+      <input type="submit" value="Register">
+    </form>
+    <div class="success-message" id="success-message">
+      Thank you for registering!
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('registration-form').addEventListener('submit', function(event) {
+      event.preventDefault(); 
+      var form = event.target;
+      var successMessage = document.getElementById('success-message');
+      successMessage.style.display = 'block';
+      form.reset(); 
+    });
+  </script>
+    </style>
+   
+</head>
+<body>
+
+
+</body>
+</html>
